@@ -1,0 +1,12 @@
+# heavy or machine-specific files live in %PPE_WORK%, but guard the repo anyway
+.venv/
+__pycache__/
+*.engine
+*.cache
+runs/
+data/
+datasets/
+weights/
+yolo26*.pt
+# fine-tuned weights are rebuilt by run_all.py and not distributed (README section 10)
+models/

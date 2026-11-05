@@ -1,0 +1,1328 @@
+{
+  "helmet_as_head": [
+    {
+      "label": "helmet",
+      "predicted": "head",
+      "conf": 0.795,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-6158914.jpg",
+      "gt": [
+        0.71523,
+        0.33073,
+        0.74336,
+        0.36042
+      ],
+      "pred": [
+        0.71714,
+        0.33243,
+        0.74214,
+        0.38275
+      ]
+    }
+  ],
+  "head_as_helmet": [
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.846,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-14367425.jpg",
+      "gt": [
+        0.82232,
+        0.40804,
+        0.89911,
+        0.46682
+      ],
+      "pred": [
+        0.8107,
+        0.4067,
+        0.90153,
+        0.4456
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.845,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-3792575.jpg",
+      "gt": [
+        0.32317,
+        0.23099,
+        0.3738,
+        0.31959
+      ],
+      "pred": [
+        0.3173,
+        0.22821,
+        0.37392,
+        0.3038
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.791,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-3377222.jpg",
+      "gt": [
+        0.322,
+        0.42325,
+        0.37408,
+        0.4662
+      ],
+      "pred": [
+        0.31209,
+        0.42312,
+        0.38509,
+        0.45986
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.74,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-896568.jpg",
+      "gt": [
+        0.41081,
+        0.13458,
+        0.57649,
+        0.37806
+      ],
+      "pred": [
+        0.40796,
+        0.13412,
+        0.58461,
+        0.3116
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.617,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-4575148.jpg",
+      "gt": [
+        0.00877,
+        0.4057,
+        0.06433,
+        0.49397
+      ],
+      "pred": [
+        0.01108,
+        0.40735,
+        0.06308,
+        0.47157
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.566,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-17745340.jpg",
+      "gt": [
+        0.3886,
+        0.4056,
+        0.42145,
+        0.44828
+      ],
+      "pred": [
+        0.38517,
+        0.40504,
+        0.42663,
+        0.43201
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.55,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-5802827.jpg",
+      "gt": [
+        0.55065,
+        0.118,
+        0.62159,
+        0.22926
+      ],
+      "pred": [
+        0.53997,
+        0.11758,
+        0.62379,
+        0.21825
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.491,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-1087083.jpg",
+      "gt": [
+        0.60307,
+        0.43531,
+        0.62025,
+        0.4693
+      ],
+      "pred": [
+        0.60361,
+        0.43366,
+        0.62164,
+        0.45794
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.483,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-5802821.jpg",
+      "gt": [
+        0.40769,
+        0.02344,
+        0.48186,
+        0.14332
+      ],
+      "pred": [
+        0.403,
+        0.02663,
+        0.49992,
+        0.13358
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.387,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-3377223.jpg",
+      "gt": [
+        0.51547,
+        0.18689,
+        0.55619,
+        0.26838
+      ],
+      "pred": [
+        0.51575,
+        0.1871,
+        0.55662,
+        0.26054
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.386,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-3377222.jpg",
+      "gt": [
+        0.43076,
+        0.4373,
+        0.47855,
+        0.48982
+      ],
+      "pred": [
+        0.41419,
+        0.43992,
+        0.48289,
+        0.48929
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.379,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-1755698.jpg",
+      "gt": [
+        0.55853,
+        0.66096,
+        0.57341,
+        0.67932
+      ],
+      "pred": [
+        0.55796,
+        0.66153,
+        0.57483,
+        0.67552
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.37,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-3942369.jpg",
+      "gt": [
+        0.78756,
+        0.67088,
+        0.8245,
+        0.69318
+      ],
+      "pred": [
+        0.78972,
+        0.67198,
+        0.82258,
+        0.69057
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.359,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-17410739.jpg",
+      "gt": [
+        0.31538,
+        0.61293,
+        0.32604,
+        0.63664
+      ],
+      "pred": [
+        0.31315,
+        0.61287,
+        0.32701,
+        0.63055
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.334,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-4575150.jpg",
+      "gt": [
+        0.48428,
+        0.36952,
+        0.51645,
+        0.4227
+      ],
+      "pred": [
+        0.48532,
+        0.3674,
+        0.5077,
+        0.41647
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.307,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-5242049.jpg",
+      "gt": [
+        0.61632,
+        0.52083,
+        0.63503,
+        0.56192
+      ],
+      "pred": [
+        0.6142,
+        0.51539,
+        0.63849,
+        0.5566
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.274,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-1087083.jpg",
+      "gt": [
+        0.81213,
+        0.4227,
+        0.82858,
+        0.45614
+      ],
+      "pred": [
+        0.8122,
+        0.42379,
+        0.82816,
+        0.44163
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.274,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-15794743.jpg",
+      "gt": [
+        0.34033,
+        0.30062,
+        0.3691,
+        0.36871
+      ],
+      "pred": [
+        0.33822,
+        0.29744,
+        0.37057,
+        0.35323
+      ]
+    },
+    {
+      "label": "head",
+      "predicted": "helmet",
+      "conf": 0.274,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-1755698.jpg",
+      "gt": [
+        0.65079,
+        0.66939,
+        0.66997,
+        0.68279
+      ],
+      "pred": [
+        0.64973,
+        0.66911,
+        0.67249,
+        0.68247
+      ]
+    }
+  ],
+  "gloves_as_hands": [
+    {
+      "label": "gloves",
+      "predicted": "hands",
+      "conf": 0.923,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7728385.jpg",
+      "gt": [
+        0.0,
+        0.25033,
+        0.55025,
+        0.67117
+      ],
+      "pred": [
+        0.00036,
+        0.2977,
+        0.5473,
+        0.64225
+      ]
+    },
+    {
+      "label": "gloves",
+      "predicted": "hands",
+      "conf": 0.904,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7728380.jpg",
+      "gt": [
+        0.21125,
+        0.48,
+        0.44275,
+        0.70083
+      ],
+      "pred": [
+        0.23658,
+        0.49766,
+        0.4388,
+        0.69875
+      ]
+    },
+    {
+      "label": "gloves",
+      "predicted": "hands",
+      "conf": 0.871,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7728377.jpg",
+      "gt": [
+        0.21575,
+        0.6975,
+        0.3825,
+        0.822
+      ],
+      "pred": [
+        0.22913,
+        0.69781,
+        0.38197,
+        0.82319
+      ]
+    },
+    {
+      "label": "gloves",
+      "predicted": "hands",
+      "conf": 0.869,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7388980.jpg",
+      "gt": [
+        0.6365,
+        0.68425,
+        0.76983,
+        0.79675
+      ],
+      "pred": [
+        0.63611,
+        0.68233,
+        0.74794,
+        0.79498
+      ]
+    },
+    {
+      "label": "gloves",
+      "predicted": "hands",
+      "conf": 0.865,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7728406.jpg",
+      "gt": [
+        0.53375,
+        0.724,
+        0.7275,
+        0.86
+      ],
+      "pred": [
+        0.53627,
+        0.72613,
+        0.7285,
+        0.85962
+      ]
+    },
+    {
+      "label": "gloves",
+      "predicted": "hands",
+      "conf": 0.862,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-4021801.jpg",
+      "gt": [
+        0.48959,
+        0.5056,
+        0.93052,
+        0.94315
+      ],
+      "pred": [
+        0.41456,
+        0.51099,
+        0.93156,
+        0.94187
+      ]
+    },
+    {
+      "label": "gloves",
+      "predicted": "hands",
+      "conf": 0.859,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7728403.jpg",
+      "gt": [
+        0.51317,
+        0.7275,
+        0.72033,
+        0.9325
+      ],
+      "pred": [
+        0.52079,
+        0.73708,
+        0.72502,
+        0.93652
+      ]
+    },
+    {
+      "label": "gloves",
+      "predicted": "hands",
+      "conf": 0.847,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7388972.jpg",
+      "gt": [
+        0.3005,
+        0.327,
+        0.457,
+        0.4685
+      ],
+      "pred": [
+        0.32888,
+        0.32643,
+        0.45733,
+        0.45472
+      ]
+    },
+    {
+      "label": "gloves",
+      "predicted": "hands",
+      "conf": 0.835,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7728393.jpg",
+      "gt": [
+        0.38625,
+        0.55117,
+        0.653,
+        0.73833
+      ],
+      "pred": [
+        0.42601,
+        0.56446,
+        0.65363,
+        0.72308
+      ]
+    },
+    {
+      "label": "gloves",
+      "predicted": "hands",
+      "conf": 0.787,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-15016529.jpg",
+      "gt": [
+        0.38505,
+        0.55863,
+        0.58833,
+        0.85637
+      ],
+      "pred": [
+        0.37819,
+        0.55905,
+        0.56104,
+        0.80728
+      ]
+    }
+  ],
+  "hands_as_gloves": [
+    {
+      "label": "hands",
+      "predicted": "gloves",
+      "conf": 0.887,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-9226958.jpg",
+      "gt": [
+        0.74761,
+        0.66135,
+        0.85048,
+        0.84192
+      ],
+      "pred": [
+        0.75089,
+        0.6832,
+        0.85138,
+        0.84543
+      ]
+    },
+    {
+      "label": "hands",
+      "predicted": "gloves",
+      "conf": 0.789,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-17797264.jpg",
+      "gt": [
+        0.416,
+        0.41025,
+        0.4785,
+        0.52575
+      ],
+      "pred": [
+        0.41755,
+        0.41041,
+        0.47559,
+        0.52729
+      ]
+    },
+    {
+      "label": "hands",
+      "predicted": "gloves",
+      "conf": 0.766,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-4888854.jpg",
+      "gt": [
+        0.41808,
+        0.49568,
+        0.60469,
+        0.64524
+      ],
+      "pred": [
+        0.41313,
+        0.49081,
+        0.59784,
+        0.64587
+      ]
+    },
+    {
+      "label": "hands",
+      "predicted": "gloves",
+      "conf": 0.717,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-4305364.jpg",
+      "gt": [
+        0.81412,
+        0.255,
+        0.90882,
+        0.42
+      ],
+      "pred": [
+        0.80888,
+        0.25047,
+        0.91747,
+        0.42395
+      ]
+    },
+    {
+      "label": "hands",
+      "predicted": "gloves",
+      "conf": 0.712,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-4888653.jpg",
+      "gt": [
+        0.19643,
+        0.05491,
+        0.35536,
+        0.23549
+      ],
+      "pred": [
+        0.19501,
+        0.05378,
+        0.35091,
+        0.23536
+      ]
+    },
+    {
+      "label": "hands",
+      "predicted": "gloves",
+      "conf": 0.696,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-4206118.jpg",
+      "gt": [
+        0.3538,
+        0.00024,
+        0.44525,
+        0.16473
+      ],
+      "pred": [
+        0.36472,
+        0.00047,
+        0.44497,
+        0.1595
+      ]
+    },
+    {
+      "label": "hands",
+      "predicted": "gloves",
+      "conf": 0.639,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-4888653.jpg",
+      "gt": [
+        0.67738,
+        0.16496,
+        0.85863,
+        0.41987
+      ],
+      "pred": [
+        0.67759,
+        0.16631,
+        0.81601,
+        0.41456
+      ]
+    },
+    {
+      "label": "hands",
+      "predicted": "gloves",
+      "conf": 0.632,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-6158914.jpg",
+      "gt": [
+        0.94219,
+        0.5224,
+        0.96094,
+        0.55937
+      ],
+      "pred": [
+        0.94284,
+        0.51789,
+        0.9614,
+        0.56354
+      ]
+    },
+    {
+      "label": "hands",
+      "predicted": "gloves",
+      "conf": 0.616,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-4968427.jpg",
+      "gt": [
+        0.7515,
+        0.74962,
+        0.838,
+        0.84047
+      ],
+      "pred": [
+        0.75668,
+        0.72978,
+        0.83897,
+        0.84048
+      ]
+    },
+    {
+      "label": "hands",
+      "predicted": "gloves",
+      "conf": 0.614,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-4515180.jpg",
+      "gt": [
+        0.61524,
+        0.59692,
+        0.64168,
+        0.62692
+      ],
+      "pred": [
+        0.60985,
+        0.59786,
+        0.64047,
+        0.64044
+      ]
+    },
+    {
+      "label": "hands",
+      "predicted": "gloves",
+      "conf": 0.586,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-5682948.jpg",
+      "gt": [
+        0.51083,
+        0.54941,
+        0.58778,
+        0.64235
+      ],
+      "pred": [
+        0.47892,
+        0.53326,
+        0.58956,
+        0.63956
+      ]
+    },
+    {
+      "label": "hands",
+      "predicted": "gloves",
+      "conf": 0.578,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-4206121.jpg",
+      "gt": [
+        0.34576,
+        0.04643,
+        0.57701,
+        0.22813
+      ],
+      "pred": [
+        0.34644,
+        0.0243,
+        0.57612,
+        0.24529
+      ]
+    },
+    {
+      "label": "hands",
+      "predicted": "gloves",
+      "conf": 0.576,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-9390017.jpg",
+      "gt": [
+        0.70727,
+        0.61771,
+        0.73208,
+        0.64506
+      ],
+      "pred": [
+        0.70565,
+        0.61544,
+        0.73183,
+        0.64597
+      ]
+    },
+    {
+      "label": "hands",
+      "predicted": "gloves",
+      "conf": 0.546,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-11624249.jpg",
+      "gt": [
+        0.58498,
+        0.63295,
+        0.64437,
+        0.74698
+      ],
+      "pred": [
+        0.58479,
+        0.63034,
+        0.64745,
+        0.74135
+      ]
+    }
+  ],
+  "shoes_as_foot": [
+    {
+      "label": "shoes",
+      "predicted": "foot",
+      "conf": 0.484,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-8837596.jpg",
+      "gt": [
+        0.642,
+        0.85233,
+        0.73675,
+        0.92267
+      ],
+      "pred": [
+        0.66574,
+        0.86036,
+        0.74004,
+        0.92409
+      ]
+    },
+    {
+      "label": "shoes",
+      "predicted": "foot",
+      "conf": 0.456,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7089400.jpg",
+      "gt": [
+        0.45978,
+        0.90423,
+        0.59188,
+        0.98355
+      ],
+      "pred": [
+        0.46435,
+        0.8784,
+        0.59594,
+        0.96717
+      ]
+    },
+    {
+      "label": "shoes",
+      "predicted": "foot",
+      "conf": 0.452,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-8067880.jpg",
+      "gt": [
+        0.39343,
+        0.83544,
+        0.46071,
+        0.89972
+      ],
+      "pred": [
+        0.39662,
+        0.82797,
+        0.4476,
+        0.89548
+      ]
+    },
+    {
+      "label": "shoes",
+      "predicted": "foot",
+      "conf": 0.443,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-9107443.jpg",
+      "gt": [
+        0.29579,
+        0.94411,
+        0.35685,
+        0.99901
+      ],
+      "pred": [
+        0.29845,
+        0.94707,
+        0.35775,
+        1.0
+      ]
+    },
+    {
+      "label": "shoes",
+      "predicted": "foot",
+      "conf": 0.347,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-5239887.jpg",
+      "gt": [
+        0.96771,
+        0.37422,
+        1.0,
+        0.43906
+      ],
+      "pred": [
+        0.96692,
+        0.37272,
+        1.0,
+        0.44133
+      ]
+    },
+    {
+      "label": "shoes",
+      "predicted": "foot",
+      "conf": 0.347,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-8067904.jpg",
+      "gt": [
+        0.3964,
+        0.73357,
+        0.51275,
+        0.77629
+      ],
+      "pred": [
+        0.40349,
+        0.73119,
+        0.51583,
+        0.78585
+      ]
+    },
+    {
+      "label": "shoes",
+      "predicted": "foot",
+      "conf": 0.297,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-3810753.jpg",
+      "gt": [
+        0.34416,
+        0.8958,
+        0.42261,
+        0.99168
+      ],
+      "pred": [
+        0.34676,
+        0.89831,
+        0.42521,
+        0.98561
+      ]
+    },
+    {
+      "label": "shoes",
+      "predicted": "foot",
+      "conf": 0.285,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7089403.jpg",
+      "gt": [
+        0.50164,
+        0.82582,
+        0.65725,
+        0.91056
+      ],
+      "pred": [
+        0.53751,
+        0.82839,
+        0.65636,
+        0.88488
+      ]
+    },
+    {
+      "label": "shoes",
+      "predicted": "foot",
+      "conf": 0.269,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-8165280.jpg",
+      "gt": [
+        0.67109,
+        0.7258,
+        0.75119,
+        0.77069
+      ],
+      "pred": [
+        0.68024,
+        0.71574,
+        0.75565,
+        0.77054
+      ]
+    },
+    {
+      "label": "shoes",
+      "predicted": "foot",
+      "conf": 0.262,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-6441184.jpg",
+      "gt": [
+        0.11895,
+        0.8115,
+        0.26374,
+        0.85367
+      ],
+      "pred": [
+        0.11553,
+        0.81196,
+        0.26282,
+        0.86406
+      ]
+    },
+    {
+      "label": "shoes",
+      "predicted": "foot",
+      "conf": 0.259,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-8165280.jpg",
+      "gt": [
+        0.74543,
+        0.72814,
+        0.85106,
+        0.79856
+      ],
+      "pred": [
+        0.75134,
+        0.71549,
+        0.85003,
+        0.77476
+      ]
+    },
+    {
+      "label": "shoes",
+      "predicted": "foot",
+      "conf": 0.214,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-8067820.jpg",
+      "gt": [
+        0.17129,
+        0.76345,
+        0.20314,
+        0.82408
+      ],
+      "pred": [
+        0.16938,
+        0.75615,
+        0.20223,
+        0.82076
+      ]
+    },
+    {
+      "label": "shoes",
+      "predicted": "foot",
+      "conf": 0.202,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7698807.jpg",
+      "gt": [
+        0.3485,
+        0.931,
+        0.39933,
+        1.0
+      ],
+      "pred": [
+        0.3465,
+        0.94151,
+        0.40036,
+        0.99929
+      ]
+    }
+  ],
+  "foot_as_shoes": [
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.893,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7089392.jpg",
+      "gt": [
+        0.14084,
+        0.63142,
+        0.30598,
+        0.73315
+      ],
+      "pred": [
+        0.1414,
+        0.63352,
+        0.25848,
+        0.7351
+      ]
+    },
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.843,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7015106.jpg",
+      "gt": [
+        0.6385,
+        0.861,
+        0.8515,
+        0.93483
+      ],
+      "pred": [
+        0.62677,
+        0.83272,
+        0.85339,
+        0.9372
+      ]
+    },
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.837,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7014673.jpg",
+      "gt": [
+        0.887,
+        0.81083,
+        0.9475,
+        0.92617
+      ],
+      "pred": [
+        0.85235,
+        0.80963,
+        0.94804,
+        0.93068
+      ]
+    },
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.835,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7088842.jpg",
+      "gt": [
+        0.3578,
+        0.57525,
+        0.42367,
+        0.63005
+      ],
+      "pred": [
+        0.35188,
+        0.57587,
+        0.4228,
+        0.66949
+      ]
+    },
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.824,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7015108.jpg",
+      "gt": [
+        0.30875,
+        0.7625,
+        0.393,
+        0.84267
+      ],
+      "pred": [
+        0.30939,
+        0.76216,
+        0.3927,
+        0.84201
+      ]
+    },
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.823,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-5691513.jpg",
+      "gt": [
+        0.53764,
+        0.63947,
+        0.6421,
+        0.70237
+      ],
+      "pred": [
+        0.54846,
+        0.64345,
+        0.64393,
+        0.70379
+      ]
+    },
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.812,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7014413.jpg",
+      "gt": [
+        0.22825,
+        0.61267,
+        0.465,
+        0.82967
+      ],
+      "pred": [
+        0.22826,
+        0.5943,
+        0.46159,
+        0.82971
+      ]
+    },
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.807,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7089289.jpg",
+      "gt": [
+        0.28662,
+        0.61286,
+        0.34601,
+        0.72072
+      ],
+      "pred": [
+        0.28558,
+        0.61031,
+        0.32861,
+        0.72157
+      ]
+    },
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.796,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-5309640.jpg",
+      "gt": [
+        0.40806,
+        0.76,
+        0.44,
+        0.80917
+      ],
+      "pred": [
+        0.40225,
+        0.75441,
+        0.44012,
+        0.82151
+      ]
+    },
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.796,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7089389.jpg",
+      "gt": [
+        0.55997,
+        0.85618,
+        0.61911,
+        0.96041
+      ],
+      "pred": [
+        0.55617,
+        0.85983,
+        0.62044,
+        0.95786
+      ]
+    },
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.775,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7088843.jpg",
+      "gt": [
+        0.24689,
+        0.66131,
+        0.30032,
+        0.73124
+      ],
+      "pred": [
+        0.24717,
+        0.6616,
+        0.29576,
+        0.73489
+      ]
+    },
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.772,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7014409.jpg",
+      "gt": [
+        0.0075,
+        0.68967,
+        0.373,
+        0.833
+      ],
+      "pred": [
+        0.01328,
+        0.67722,
+        0.37132,
+        0.8323
+      ]
+    },
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.742,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7089289.jpg",
+      "gt": [
+        0.23657,
+        0.65591,
+        0.32799,
+        0.77377
+      ],
+      "pred": [
+        0.23558,
+        0.65861,
+        0.30331,
+        0.77332
+      ]
+    },
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.723,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7014670.jpg",
+      "gt": [
+        0.57283,
+        0.852,
+        0.59833,
+        0.92075
+      ],
+      "pred": [
+        0.57365,
+        0.85091,
+        0.5987,
+        0.91876
+      ]
+    },
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.713,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7147651.jpg",
+      "gt": [
+        0.40975,
+        0.81083,
+        0.56675,
+        0.882
+      ],
+      "pred": [
+        0.40989,
+        0.78699,
+        0.56846,
+        0.88305
+      ]
+    },
+    {
+      "label": "foot",
+      "predicted": "shoes",
+      "conf": 0.71,
+      "image": "$PPE_WORK/data/sh17/images/pexels-photo-7015103.jpg",
+      "gt": [
+        0.729,
+        0.83317,
+        0.89475,
+        0.91067
+      ],
+      "pred": [
+        0.72049,
+        0.82983,
+        0.89666,
+        0.91046
+      ]
+    }
+  ]
+}

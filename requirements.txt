@@ -1,0 +1,8 @@
+# Python 3.12. Install torch from the CUDA 12.8 index first (RTX 50-series needs sm_120 builds):
+#   uv pip install torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cu128
+#   uv pip install -r requirements.txt --extra-index-url https://pypi.nvidia.com
+ultralytics==8.4.202
+onnx==1.23.2
+onnxslim==0.1.99
+tensorrt-cu12==10.16.1.11   # TensorRT 11 needs NVIDIA ModelOpt for FP16 / INT8 engines; 10.x does not
+reportlab==5.1.0

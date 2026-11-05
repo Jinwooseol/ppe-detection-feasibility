@@ -1,0 +1,160 @@
+{
+  "imgsz": 640,
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+    "driver_version": "581.83",
+    "power.limit": "[N/A]",
+    "power.max_limit": "140.00 W",
+    "clocks.max.sm": "3090 MHz",
+    "temperature.gpu": "53",
+    "on_ac_power": true,
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "tensorrt": "10.16.1.11"
+  },
+  "formats": {
+    "pytorch_fp32": {
+      "file": "best.pt",
+      "end_to_end_b1": {
+        "preprocess_ms": 1.0,
+        "inference_ms": 226.43,
+        "postprocess_ms": 0.78,
+        "total_ms": 228.2,
+        "fps": 4.4,
+        "pipeline_fps_incl_jpeg_decode": 4.3,
+        "warmup_rounds": 2,
+        "round_totals_ms": [
+          59.9,
+          228.5,
+          228.2
+        ]
+      },
+      "model_only_b1": {
+        "batch": 1,
+        "latency_ms_mean": 6.399,
+        "latency_ms_round_range": [
+          6.38,
+          6.421
+        ],
+        "images_per_s": 156.3
+      },
+      "accuracy": {
+        "mAP50": 0.4898,
+        "mAP50_95": 0.3149
+      }
+    },
+    "pytorch_fp16": {
+      "file": "best.pt",
+      "end_to_end_b1": {
+        "preprocess_ms": 1.52,
+        "inference_ms": 3.02,
+        "postprocess_ms": 0.78,
+        "total_ms": 5.32,
+        "fps": 188.0,
+        "pipeline_fps_incl_jpeg_decode": 87.9,
+        "warmup_rounds": 2,
+        "round_totals_ms": [
+          6.25,
+          5.32,
+          3.81
+        ]
+      },
+      "model_only_b1": {
+        "batch": 1,
+        "latency_ms_mean": 6.716,
+        "latency_ms_round_range": [
+          6.693,
+          6.728
+        ],
+        "images_per_s": 148.9
+      },
+      "model_only_b8": {
+        "batch": 8,
+        "latency_ms_mean": 12.542,
+        "latency_ms_round_range": [
+          12.511,
+          12.622
+        ],
+        "images_per_s": 637.9
+      },
+      "accuracy": {
+        "mAP50": 0.4893,
+        "mAP50_95": 0.3153
+      }
+    },
+    "tensorrt_fp32": {
+      "file": "best.engine",
+      "end_to_end_b1": {
+        "preprocess_ms": 1.06,
+        "inference_ms": 2.07,
+        "postprocess_ms": 0.7,
+        "total_ms": 3.83,
+        "fps": 261.3,
+        "pipeline_fps_incl_jpeg_decode": 100.4,
+        "warmup_rounds": 2,
+        "round_totals_ms": [
+          3.83,
+          3.8,
+          3.91
+        ]
+      },
+      "model_only_b1": {
+        "batch": 1,
+        "latency_ms_mean": 2.108,
+        "latency_ms_round_range": [
+          2.083,
+          2.395
+        ],
+        "images_per_s": 474.4
+      },
+      "accuracy": {
+        "mAP50": 0.4895,
+        "mAP50_95": 0.3138
+      }
+    },
+    "tensorrt_fp16": {
+      "file": "best.engine",
+      "end_to_end_b1": {
+        "preprocess_ms": 1.17,
+        "inference_ms": 1.0,
+        "postprocess_ms": 0.77,
+        "total_ms": 2.93,
+        "fps": 341.2,
+        "pipeline_fps_incl_jpeg_decode": 109.0,
+        "warmup_rounds": 2,
+        "round_totals_ms": [
+          2.93,
+          2.91,
+          3.86
+        ]
+      },
+      "model_only_b1": {
+        "batch": 1,
+        "latency_ms_mean": 1.004,
+        "latency_ms_round_range": [
+          1.003,
+          1.016
+        ],
+        "images_per_s": 995.7
+      },
+      "model_only_b8": {
+        "batch": 8,
+        "latency_ms_mean": 5.609,
+        "latency_ms_round_range": [
+          5.502,
+          5.793
+        ],
+        "images_per_s": 1426.3
+      },
+      "accuracy": {
+        "mAP50": 0.4889,
+        "mAP50_95": 0.314
+      }
+    }
+  },
+  "not_built": {
+    "tensorrt_int8": "RuntimeError: RuntimeError: TensorRT engine build failed, check logs for errors"
+  },
+  "n_latency_images": 300,
+  "onnx_mb": 38.2
+}

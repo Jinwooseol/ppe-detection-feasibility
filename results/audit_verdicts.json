@@ -1,0 +1,887 @@
+{
+  "method": "one-person visual check of results/audit/*.png at the 20-per-1k operating point; label_missing = the predicted item is visible but not labelled; label_rule_edge = the case sits on the edge of the SH17 rule (socked foot labelled foot, open heels/sandals labelled shoes); model_wrong = the label is right and the prediction is wrong; unclear = too small or blurred to call",
+  "notes": {
+    "foot_as_shoes": "all socked feet except one; 13 of 16 from two photo shoots",
+    "gloves_as_hands": "6 of 10 from one gardening shoot (tan and white work gloves)",
+    "shoes_as_foot": "open heels and sandals that show skin; the 3 errors are a sneaker, a running shoe and a boot",
+    "head_as_helmet": "the 5 errors are caps, bucket hats and one bare head"
+  },
+  "cases": [
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-14367425",
+      "gt": [
+        0.82232,
+        0.40804,
+        0.89911,
+        0.46682
+      ],
+      "conf": 0.846,
+      "verdict": "label_missing"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-3792575",
+      "gt": [
+        0.32317,
+        0.23099,
+        0.3738,
+        0.31959
+      ],
+      "conf": 0.845,
+      "verdict": "label_missing"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-3377222",
+      "gt": [
+        0.322,
+        0.42325,
+        0.37408,
+        0.4662
+      ],
+      "conf": 0.791,
+      "verdict": "label_missing"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-896568",
+      "gt": [
+        0.41081,
+        0.13458,
+        0.57649,
+        0.37806
+      ],
+      "conf": 0.74,
+      "verdict": "label_missing"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-17745340",
+      "gt": [
+        0.3886,
+        0.4056,
+        0.42145,
+        0.44828
+      ],
+      "conf": 0.566,
+      "verdict": "label_missing"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-1087083",
+      "gt": [
+        0.60307,
+        0.43531,
+        0.62025,
+        0.4693
+      ],
+      "conf": 0.491,
+      "verdict": "label_missing"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-3377223",
+      "gt": [
+        0.51547,
+        0.18689,
+        0.55619,
+        0.26838
+      ],
+      "conf": 0.387,
+      "verdict": "label_missing"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-17410739",
+      "gt": [
+        0.31538,
+        0.61293,
+        0.32604,
+        0.63664
+      ],
+      "conf": 0.359,
+      "verdict": "label_missing"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-4575150",
+      "gt": [
+        0.48428,
+        0.36952,
+        0.51645,
+        0.4227
+      ],
+      "conf": 0.334,
+      "verdict": "label_missing"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-5242049",
+      "gt": [
+        0.61632,
+        0.52083,
+        0.63503,
+        0.56192
+      ],
+      "conf": 0.307,
+      "verdict": "label_missing"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-1087083",
+      "gt": [
+        0.81213,
+        0.4227,
+        0.82858,
+        0.45614
+      ],
+      "conf": 0.274,
+      "verdict": "label_missing"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-15794743",
+      "gt": [
+        0.34033,
+        0.30062,
+        0.3691,
+        0.36871
+      ],
+      "conf": 0.274,
+      "verdict": "label_missing"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-4575148",
+      "gt": [
+        0.00877,
+        0.4057,
+        0.06433,
+        0.49397
+      ],
+      "conf": 0.617,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-5802827",
+      "gt": [
+        0.55065,
+        0.118,
+        0.62159,
+        0.22926
+      ],
+      "conf": 0.55,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-5802821",
+      "gt": [
+        0.40769,
+        0.02344,
+        0.48186,
+        0.14332
+      ],
+      "conf": 0.483,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-3377222",
+      "gt": [
+        0.43076,
+        0.4373,
+        0.47855,
+        0.48982
+      ],
+      "conf": 0.386,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-1755698",
+      "gt": [
+        0.55853,
+        0.66096,
+        0.57341,
+        0.67932
+      ],
+      "conf": 0.379,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-3942369",
+      "gt": [
+        0.78756,
+        0.67088,
+        0.8245,
+        0.69318
+      ],
+      "conf": 0.37,
+      "verdict": "unclear"
+    },
+    {
+      "pair": "head_as_helmet",
+      "image": "pexels-photo-1755698",
+      "gt": [
+        0.65079,
+        0.66939,
+        0.66997,
+        0.68279
+      ],
+      "conf": 0.274,
+      "verdict": "unclear"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-7089392",
+      "gt": [
+        0.14084,
+        0.63142,
+        0.30598,
+        0.73315
+      ],
+      "conf": 0.893,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-7015106",
+      "gt": [
+        0.6385,
+        0.861,
+        0.8515,
+        0.93483
+      ],
+      "conf": 0.843,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-7014673",
+      "gt": [
+        0.887,
+        0.81083,
+        0.9475,
+        0.92617
+      ],
+      "conf": 0.837,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-7088842",
+      "gt": [
+        0.3578,
+        0.57525,
+        0.42367,
+        0.63005
+      ],
+      "conf": 0.835,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-7015108",
+      "gt": [
+        0.30875,
+        0.7625,
+        0.393,
+        0.84267
+      ],
+      "conf": 0.824,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-5691513",
+      "gt": [
+        0.53764,
+        0.63947,
+        0.6421,
+        0.70237
+      ],
+      "conf": 0.823,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-7014413",
+      "gt": [
+        0.22825,
+        0.61267,
+        0.465,
+        0.82967
+      ],
+      "conf": 0.812,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-7089289",
+      "gt": [
+        0.28662,
+        0.61286,
+        0.34601,
+        0.72072
+      ],
+      "conf": 0.807,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-7089389",
+      "gt": [
+        0.55997,
+        0.85618,
+        0.61911,
+        0.96041
+      ],
+      "conf": 0.796,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-7088843",
+      "gt": [
+        0.24689,
+        0.66131,
+        0.30032,
+        0.73124
+      ],
+      "conf": 0.775,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-7014409",
+      "gt": [
+        0.0075,
+        0.68967,
+        0.373,
+        0.833
+      ],
+      "conf": 0.772,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-7089289",
+      "gt": [
+        0.23657,
+        0.65591,
+        0.32799,
+        0.77377
+      ],
+      "conf": 0.742,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-7014670",
+      "gt": [
+        0.57283,
+        0.852,
+        0.59833,
+        0.92075
+      ],
+      "conf": 0.723,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-7147651",
+      "gt": [
+        0.40975,
+        0.81083,
+        0.56675,
+        0.882
+      ],
+      "conf": 0.713,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-7015103",
+      "gt": [
+        0.729,
+        0.83317,
+        0.89475,
+        0.91067
+      ],
+      "conf": 0.71,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "foot_as_shoes",
+      "image": "pexels-photo-5309640",
+      "gt": [
+        0.40806,
+        0.76,
+        0.44,
+        0.80917
+      ],
+      "conf": 0.796,
+      "verdict": "unclear"
+    },
+    {
+      "pair": "gloves_as_hands",
+      "image": "pexels-photo-7728385",
+      "gt": [
+        0.0,
+        0.25033,
+        0.55025,
+        0.67117
+      ],
+      "conf": 0.923,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "gloves_as_hands",
+      "image": "pexels-photo-7728380",
+      "gt": [
+        0.21125,
+        0.48,
+        0.44275,
+        0.70083
+      ],
+      "conf": 0.904,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "gloves_as_hands",
+      "image": "pexels-photo-7728377",
+      "gt": [
+        0.21575,
+        0.6975,
+        0.3825,
+        0.822
+      ],
+      "conf": 0.871,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "gloves_as_hands",
+      "image": "pexels-photo-7388980",
+      "gt": [
+        0.6365,
+        0.68425,
+        0.76983,
+        0.79675
+      ],
+      "conf": 0.869,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "gloves_as_hands",
+      "image": "pexels-photo-7728406",
+      "gt": [
+        0.53375,
+        0.724,
+        0.7275,
+        0.86
+      ],
+      "conf": 0.865,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "gloves_as_hands",
+      "image": "pexels-photo-4021801",
+      "gt": [
+        0.48959,
+        0.5056,
+        0.93052,
+        0.94315
+      ],
+      "conf": 0.862,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "gloves_as_hands",
+      "image": "pexels-photo-7728403",
+      "gt": [
+        0.51317,
+        0.7275,
+        0.72033,
+        0.9325
+      ],
+      "conf": 0.859,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "gloves_as_hands",
+      "image": "pexels-photo-7388972",
+      "gt": [
+        0.3005,
+        0.327,
+        0.457,
+        0.4685
+      ],
+      "conf": 0.847,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "gloves_as_hands",
+      "image": "pexels-photo-7728393",
+      "gt": [
+        0.38625,
+        0.55117,
+        0.653,
+        0.73833
+      ],
+      "conf": 0.835,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "gloves_as_hands",
+      "image": "pexels-photo-15016529",
+      "gt": [
+        0.38505,
+        0.55863,
+        0.58833,
+        0.85637
+      ],
+      "conf": 0.787,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "hands_as_gloves",
+      "image": "pexels-photo-9226958",
+      "gt": [
+        0.74761,
+        0.66135,
+        0.85048,
+        0.84192
+      ],
+      "conf": 0.887,
+      "verdict": "label_missing"
+    },
+    {
+      "pair": "hands_as_gloves",
+      "image": "pexels-photo-4888854",
+      "gt": [
+        0.41808,
+        0.49568,
+        0.60469,
+        0.64524
+      ],
+      "conf": 0.766,
+      "verdict": "label_missing"
+    },
+    {
+      "pair": "hands_as_gloves",
+      "image": "pexels-photo-4888653",
+      "gt": [
+        0.19643,
+        0.05491,
+        0.35536,
+        0.23549
+      ],
+      "conf": 0.712,
+      "verdict": "label_missing"
+    },
+    {
+      "pair": "hands_as_gloves",
+      "image": "pexels-photo-6158914",
+      "gt": [
+        0.94219,
+        0.5224,
+        0.96094,
+        0.55937
+      ],
+      "conf": 0.632,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "hands_as_gloves",
+      "image": "pexels-photo-4515180",
+      "gt": [
+        0.61524,
+        0.59692,
+        0.64168,
+        0.62692
+      ],
+      "conf": 0.614,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "hands_as_gloves",
+      "image": "pexels-photo-4206121",
+      "gt": [
+        0.34576,
+        0.04643,
+        0.57701,
+        0.22813
+      ],
+      "conf": 0.578,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "hands_as_gloves",
+      "image": "pexels-photo-9390017",
+      "gt": [
+        0.70727,
+        0.61771,
+        0.73208,
+        0.64506
+      ],
+      "conf": 0.576,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "hands_as_gloves",
+      "image": "pexels-photo-17797264",
+      "gt": [
+        0.416,
+        0.41025,
+        0.4785,
+        0.52575
+      ],
+      "conf": 0.789,
+      "verdict": "unclear"
+    },
+    {
+      "pair": "hands_as_gloves",
+      "image": "pexels-photo-4305364",
+      "gt": [
+        0.81412,
+        0.255,
+        0.90882,
+        0.42
+      ],
+      "conf": 0.717,
+      "verdict": "unclear"
+    },
+    {
+      "pair": "hands_as_gloves",
+      "image": "pexels-photo-4206118",
+      "gt": [
+        0.3538,
+        0.00024,
+        0.44525,
+        0.16473
+      ],
+      "conf": 0.696,
+      "verdict": "unclear"
+    },
+    {
+      "pair": "hands_as_gloves",
+      "image": "pexels-photo-4888653",
+      "gt": [
+        0.67738,
+        0.16496,
+        0.85863,
+        0.41987
+      ],
+      "conf": 0.639,
+      "verdict": "unclear"
+    },
+    {
+      "pair": "hands_as_gloves",
+      "image": "pexels-photo-4968427",
+      "gt": [
+        0.7515,
+        0.74962,
+        0.838,
+        0.84047
+      ],
+      "conf": 0.616,
+      "verdict": "unclear"
+    },
+    {
+      "pair": "hands_as_gloves",
+      "image": "pexels-photo-5682948",
+      "gt": [
+        0.51083,
+        0.54941,
+        0.58778,
+        0.64235
+      ],
+      "conf": 0.586,
+      "verdict": "unclear"
+    },
+    {
+      "pair": "hands_as_gloves",
+      "image": "pexels-photo-11624249",
+      "gt": [
+        0.58498,
+        0.63295,
+        0.64437,
+        0.74698
+      ],
+      "conf": 0.546,
+      "verdict": "unclear"
+    },
+    {
+      "pair": "shoes_as_foot",
+      "image": "pexels-photo-8837596",
+      "gt": [
+        0.642,
+        0.85233,
+        0.73675,
+        0.92267
+      ],
+      "conf": 0.484,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "shoes_as_foot",
+      "image": "pexels-photo-7089400",
+      "gt": [
+        0.45978,
+        0.90423,
+        0.59188,
+        0.98355
+      ],
+      "conf": 0.456,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "shoes_as_foot",
+      "image": "pexels-photo-8067880",
+      "gt": [
+        0.39343,
+        0.83544,
+        0.46071,
+        0.89972
+      ],
+      "conf": 0.452,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "shoes_as_foot",
+      "image": "pexels-photo-9107443",
+      "gt": [
+        0.29579,
+        0.94411,
+        0.35685,
+        0.99901
+      ],
+      "conf": 0.443,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "shoes_as_foot",
+      "image": "pexels-photo-8067904",
+      "gt": [
+        0.3964,
+        0.73357,
+        0.51275,
+        0.77629
+      ],
+      "conf": 0.347,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "shoes_as_foot",
+      "image": "pexels-photo-7089403",
+      "gt": [
+        0.50164,
+        0.82582,
+        0.65725,
+        0.91056
+      ],
+      "conf": 0.285,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "shoes_as_foot",
+      "image": "pexels-photo-8165280",
+      "gt": [
+        0.67109,
+        0.7258,
+        0.75119,
+        0.77069
+      ],
+      "conf": 0.269,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "shoes_as_foot",
+      "image": "pexels-photo-8165280",
+      "gt": [
+        0.74543,
+        0.72814,
+        0.85106,
+        0.79856
+      ],
+      "conf": 0.259,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "shoes_as_foot",
+      "image": "pexels-photo-8067820",
+      "gt": [
+        0.17129,
+        0.76345,
+        0.20314,
+        0.82408
+      ],
+      "conf": 0.214,
+      "verdict": "label_rule_edge"
+    },
+    {
+      "pair": "shoes_as_foot",
+      "image": "pexels-photo-3810753",
+      "gt": [
+        0.34416,
+        0.8958,
+        0.42261,
+        0.99168
+      ],
+      "conf": 0.297,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "shoes_as_foot",
+      "image": "pexels-photo-6441184",
+      "gt": [
+        0.11895,
+        0.8115,
+        0.26374,
+        0.85367
+      ],
+      "conf": 0.262,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "shoes_as_foot",
+      "image": "pexels-photo-7698807",
+      "gt": [
+        0.3485,
+        0.931,
+        0.39933,
+        1.0
+      ],
+      "conf": 0.202,
+      "verdict": "model_wrong"
+    },
+    {
+      "pair": "shoes_as_foot",
+      "image": "pexels-photo-5239887",
+      "gt": [
+        0.96771,
+        0.37422,
+        1.0,
+        0.43906
+      ],
+      "conf": 0.347,
+      "verdict": "unclear"
+    },
+    {
+      "pair": "helmet_as_head",
+      "image": "pexels-photo-6158914",
+      "gt": [
+        0.71523,
+        0.33073,
+        0.74336,
+        0.36042
+      ],
+      "conf": 0.795,
+      "verdict": "unclear"
+    }
+  ]
+}
