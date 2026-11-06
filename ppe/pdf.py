@@ -12,6 +12,7 @@ from .common import DOCS, FIGURES
 from .evaluate import MAIN_BUDGET
 
 INK, INK2, RULE, BOX, ACCENT = (colors.HexColor(c) for c in ("#0b0b0b", "#52514e", "#d9d8d3", "#f1f0ec", "#2a78d6"))
+REPO_URL = "github.com/Jinwooseol/ppe-detection-feasibility"
 
 
 def _styles():
@@ -120,6 +121,7 @@ def build(g: dict, r: dict | None, s: dict, d: dict | None, tally: dict | None =
     left = [f for s in sections[:4] for f in block(*s)]
     right = [f for s in sections[4:] for f in block(*s)]
     right.append(Paragraph(
+        f"<b>Code:</b> <link href='https://{REPO_URL}' color='#2a78d6'>{REPO_URL}</link>. "
         "<b>Reproduce:</b> <font face='Courier'>python run_all.py</font> rebuilds the split, model, metrics, "
         "TensorRT engines and this page. Data: SH17 (CC BY-NC-SA 4.0, Pexels photos). Code: AGPL-3.0, built on "
         "Ultralytics YOLO26s.", st["foot"]))
